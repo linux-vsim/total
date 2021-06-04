@@ -1,0 +1,15 @@
+
+
+    Включить кеширование логина и пароля командой git config credential.helper cache
+
+    $ git config credential.helper cache
+    $ git push http://example.com/repo.git
+    Username: <type your username>
+    Password: <type your password>
+
+    [work for 5 more minutes]
+    $ git push http://example.com/repo.git
+    [your credentials are used automatically]
+
+    Добавить SSH ключ в профиль гитхаба
+
